@@ -1,7 +1,7 @@
 {
   "name": "baresoil-plugin-s3-blobstore",
   "version": "1.0.0",
-  "description": "",
+  "description": "AWS S3-backed BlobStore implementation for Baresoil Server.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Run tests through baresoil-server\" && exit 1"
