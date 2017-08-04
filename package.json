@@ -1,12 +1,16 @@
 {
   "name": "baresoil-plugin-s3-blobstore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS S3-backed BlobStore implementation for Baresoil Server.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Run tests through baresoil-server\" && exit 1"
   },
-  "keywords": ["baresoil", "s3", "blobstore"],
+  "keywords": [
+    "baresoil",
+    "s3",
+    "blobstore"
+  ],
   "author": "Mayank Lahiri <mlahiri@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
@@ -14,6 +18,7 @@
     "aws-sdk": "^2.94.0",
     "fs-extra": "^4.0.1",
     "lodash": "^4.17.4",
+    "lru-cache": "^4.1.1",
     "temp": "^0.8.3"
   }
 }
